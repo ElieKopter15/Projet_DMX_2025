@@ -1,0 +1,390 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "EEETC1C101XV"
+      (family "CAP")
+      (package "CAP_EEETC1C101XV")
+      (description "CAP_ALUM_100UF_20%_16V_SMD")
+      (attribute "PKG_TYPE" "CAP_EEETC1C101XV")
+      (attribute "MF" "Panasonic")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "8.0mm")
+      (attribute "PACKAGE" "RADIAL-2_Panasonic")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/EEETC1C101XV/Panasonic/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "10-Oct-19")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/EEETC1C101XV/Panasonic/view-part/?ref=snap")
+      (attribute "MP" "EEETC1C101XV")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Panasonic")
+      (gate
+        (swap 1)
+        (symbol "EEETC1C101XV")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+      )
+    )
+    (symbol "EEETC1C101XV"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path
+          (arc (pt 90 100) (pt 58.47 -174.34) (pt 407.16 174.34) (start 70) (sweep 145))
+          (pt 90 -100)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 20.0 100.0) (pt 20.0 0.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -46.18 -55.31) (pt -11.18 -55.31) (pt -11.18 -60.31) (pt -46.18 -60.31) (pt -46.18 -55.31) (closed))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -31.18 -40.31) (pt -26.18 -40.31) (pt -26.18 -75.31) (pt -31.18 -75.31) (pt -31.18 -40.31) (closed))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 20.0 0.0) (pt 20.0 -100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 0.0) (pt 20.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 0.0) (pt 60.0 0.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -100.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (package "CAP_EEETC1C101XV"
+      (units THOU)
+      (layer TCOP
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (pinid 0)
+          (path
+            (pt -139.76 -62.99)
+            (pt -139.76 -23.62)
+            (pt -165.35 -23.62)
+            (pt -165.35 23.62)
+            (pt -139.76 23.62)
+            (pt -139.76 62.99)
+            (pt -61.02 62.99)
+            (pt -61.02 23.62)
+            (pt -23.62 23.62)
+            (pt -23.62 -23.62)
+            (pt -61.02 -23.62)
+            (pt -61.02 -62.99)
+            (pt -139.76 -62.99)
+            (closed)
+          )
+        )
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (pinid 1)
+          (path
+            (pt 139.76 -62.99)
+            (pt 139.76 -23.62)
+            (pt 165.35 -23.62)
+            (pt 165.35 23.62)
+            (pt 139.76 23.62)
+            (pt 139.76 62.99)
+            (pt 61.02 62.99)
+            (pt 61.02 23.62)
+            (pt 23.62 23.62)
+            (pt 23.62 -23.62)
+            (pt 61.02 -23.62)
+            (pt 61.02 -62.99)
+            (pt 139.76 -62.99)
+            (closed)
+          )
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 90.55) (pt -129.92 -90.55))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 -90.55) (pt -90.55 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 -129.92) (pt 129.92 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 -129.92) (pt 129.92 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 129.92) (pt -90.55 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 129.92) (pt -129.92 90.55))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -167.32 53.15) (pt -159.45 53.15))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 -90.55) (pt -90.55 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 -129.92) (pt 129.92 -129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 129.92) (pt -90.55 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.55 129.92) (pt -129.92 90.55))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 90.55) (pt -129.92 75.59))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -129.92 -75.59) (pt -129.92 -90.55))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 75.59) (pt 129.92 129.92))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 129.92 -129.92) (pt 129.92 -75.59))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -167.32 53.15) (pt -159.45 53.15))
+        )
+      )
+      (layer TPST
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (path
+            (pt -139.76 -62.99)
+            (pt -139.76 -23.62)
+            (pt -165.35 -23.62)
+            (pt -165.35 23.62)
+            (pt -139.76 23.62)
+            (pt -139.76 62.99)
+            (pt -61.02 62.99)
+            (pt -61.02 23.62)
+            (pt -23.62 23.62)
+            (pt -23.62 -23.62)
+            (pt -61.02 -23.62)
+            (pt -61.02 -62.99)
+            (pt -139.76 -62.99)
+            (closed)
+          )
+        )
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (path
+            (pt 139.76 -62.99)
+            (pt 139.76 -23.62)
+            (pt 165.35 -23.62)
+            (pt 165.35 23.62)
+            (pt 139.76 23.62)
+            (pt 139.76 62.99)
+            (pt 61.02 62.99)
+            (pt 61.02 23.62)
+            (pt 23.62 23.62)
+            (pt 23.62 -23.62)
+            (pt 61.02 -23.62)
+            (pt 61.02 -62.99)
+            (pt 139.76 -62.99)
+            (closed)
+          )
+        )
+      )
+      (layer TRES
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (path
+            (pt -143.7 -66.93)
+            (pt -143.7 -27.56)
+            (pt -169.29 -27.56)
+            (pt -169.29 27.56)
+            (pt -143.7 27.56)
+            (pt -143.7 66.93)
+            (pt -57.09 66.93)
+            (pt -57.09 27.56)
+            (pt -19.69 27.56)
+            (pt -19.69 -27.56)
+            (pt -57.09 -27.56)
+            (pt -57.09 -66.93)
+            (pt -143.7 -66.93)
+            (closed)
+          )
+        )
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (path
+            (pt 143.7 -66.93)
+            (pt 143.7 -27.56)
+            (pt 169.29 -27.56)
+            (pt 169.29 27.56)
+            (pt 143.7 27.56)
+            (pt 143.7 66.93)
+            (pt 57.09 66.93)
+            (pt 57.09 27.56)
+            (pt 19.69 27.56)
+            (pt 19.69 -27.56)
+            (pt 57.09 -27.56)
+            (pt 57.09 -66.93)
+            (pt 143.7 -66.93)
+            (closed)
+          )
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -175.2 33.46) (pt -149.61 33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 149.61 33.46) (pt 175.2 33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 175.2 33.46) (pt 175.2 -33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 175.2 -33.46) (pt 149.61 -33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -149.61 -33.46) (pt -175.2 -33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -175.2 -33.46) (pt -175.2 33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -149.61 33.46) (pt -149.61 72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -149.61 72.83) (pt -139.76 72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 72.83) (pt -139.76 95.47))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 95.47) (pt -95.47 139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -95.47 139.76) (pt 139.76 139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 139.76) (pt 139.76 72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 72.83) (pt 149.61 72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 149.61 72.83) (pt 149.61 33.46))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 149.61 -33.46) (pt 149.61 -72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 149.61 -72.83) (pt 139.76 -72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 -72.83) (pt 139.76 -139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 139.76 -139.76) (pt -95.47 -139.76))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -95.47 -139.76) (pt -139.76 -95.47))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 -95.47) (pt -139.76 -72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -139.76 -72.83) (pt -149.61 -72.83))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -149.61 -72.83) (pt -149.61 -33.46))
+        )
+      )
+      (leg 1 (pt -100.39 0) (padstack 1))
+      (leg 2 (pt 100.39 0) (padstack 2))
+      (padstack 1
+        (pad (layer TCOP) (rectf 70.87 70.87 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 70.87 70.87 0 0.0 0))
+      )
+      (model EEETC1C101XV.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
