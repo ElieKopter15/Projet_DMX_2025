@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="0">
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffff300300004400000080070000cb030000</PLACEMENT>
+  <WINDOW type="default" module="ISIS">
+   <editor metric="0" gridmajor="2540000" mode="00000000" zoom="0" scale="370" flipped="0" gridminor="254000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
+    <world y1="-15240000" x1="-24130000" y2="15240000" x2="24130000"/>
+    <centre x="-1524000" y="6858000"/>
+    <origin x="0" y="0"/>
+   </editor>
+  </WINDOW>
+  <WINDOW type="default" module="DXP"/>
+  <WINDOW type="default" module="BOM"/>
+  <WINDOW type="default" module="ARES">
+   <editor metric="0" gridmajor="2540000" mode="00000000" zoom="-1" scale="667" flipped="0" gridminor="127000" gridmode="32" snapidx="3" snap="127000" xcursor="0" orgmode="0" snaprange="63500">
+    <world y1="-12700000" x1="-15240000" y2="12700000" x2="15240000"/>
+    <centre x="9207332" y="5107267"/>
+    <origin x="0" y="0"/>
+   </editor>
+  </WINDOW>
+  <WINDOW type="VIEW3D" module="VIEW3D">
+   <camera>
+    <position x="9052874" y="8976986" z="-10144582"/>
+    <focus x="7183262" y="8963081" z="454270"/>
+    <up x="-8736" y="999962" z="-229"/>
+   </camera>
+  </WINDOW>
+ </FRAME>
+ <MODULE name="ARES">
+  <editor metric="0" gridmajor="2540000" mode="00000000" zoom="-1" scale="667" flipped="0" gridminor="127000" gridmode="32" snapidx="3" snap="127000" xcursor="0" orgmode="0" snaprange="63500">
+   <world y1="-12700000" x1="-15240000" y2="12700000" x2="15240000"/>
+   <centre x="9207332" y="5107267"/>
+   <origin x="0" y="0"/>
+  </editor>
+ </MODULE>
+ <MODULE name="ISIS">
+  <editor metric="0" gridmajor="2540000" mode="00000000" zoom="0" scale="370" flipped="0" gridminor="254000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
+   <world y1="-15240000" x1="-24130000" y2="15240000" x2="24130000"/>
+   <centre x="-1524000" y="6858000"/>
+   <origin x="0" y="0"/>
+  </editor>
+ </MODULE>
+ <MODULE name="VSMDEBUG">
+  <PWI/>
+ </MODULE>
+</WORKSPACE>
